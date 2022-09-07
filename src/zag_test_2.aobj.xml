@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_AOBJ" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ARCH_DEF>
+    <ARCH_DEF>
+     <OBJECT>ZAG_TEST_2</OBJECT>
+     <SEQUENCE>0010</SEQUENCE>
+     <FATHER>SPFLI</FATHER>
+     <SON>SFLIGHT</SON>
+    </ARCH_DEF>
+   </ARCH_DEF>
+   <ARCH_OBJ>
+    <ARCH_OBJ>
+     <OBJECT>ZAG_TEST_2</OBJECT>
+     <APPLIC>BC</APPLIC>
+     <REORGA_PRG>BC_SFLIGHT_WRI</REORGA_PRG>
+     <RETRIE_PRG>BC_SFLIGHT_REL</RETRIE_PRG>
+     <DELETE_PRG>BC_SFLIGHT_DEL</DELETE_PRG>
+     <FIRST_PRG>BC_SFLIGHT_PRE</FIRST_PRG>
+     <UFFCTR>HLB0006315</UFFCTR>
+     <INTERRUPT>X</INTERRUPT>
+    </ARCH_OBJ>
+   </ARCH_OBJ>
+   <ARCH_OCLAS>
+    <ARCH_OCLAS>
+     <OBJECT>ZAG_TEST_2</OBJECT>
+     <ARCH_CLASS>BC_DEMO</ARCH_CLASS>
+    </ARCH_OCLAS>
+   </ARCH_OCLAS>
+   <ARCH_RPRG>
+    <ARCH_RPRG>
+     <OBJECT>ZAG_TEST_2</OBJECT>
+     <READ_PRG>BC_SFLIGHT_READ_AR_SEQUENTIAL</READ_PRG>
+     <READFLAG>X</READFLAG>
+    </ARCH_RPRG>
+    <ARCH_RPRG>
+     <OBJECT>ZAG_TEST_2</OBJECT>
+     <READ_PRG>BC_SFLIGHT_READ_DB_AR_BY_INDEX</READ_PRG>
+    </ARCH_RPRG>
+   </ARCH_RPRG>
+   <ARCH_TXT>
+    <ARCH_TXT>
+     <LANGU>D</LANGU>
+     <OBJECT>ZAG_TEST_2</OBJECT>
+     <OBJTEXT>Beispielarchivierungsobjekt (ADK Archivierung)</OBJTEXT>
+    </ARCH_TXT>
+    <ARCH_TXT>
+     <LANGU>E</LANGU>
+     <OBJECT>ZAG_TEST_2</OBJECT>
+     <OBJTEXT>Example Archiving Object</OBJTEXT>
+    </ARCH_TXT>
+   </ARCH_TXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>
